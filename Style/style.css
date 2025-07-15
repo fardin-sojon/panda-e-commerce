@@ -1,5 +1,6 @@
 * {
     margin: 0 auto;
+    scroll-behavior: smooth;
 }
 
 /* Font Style */
@@ -119,9 +120,10 @@ nav {
 }
 
 /* Categories */
-.categories{
+.categories {
     margin: 52px auto;
 }
+
 .categories-card-container {
     display: flex;
     gap: 26px;
@@ -216,3 +218,45 @@ nav {
 }
 
 /* Footer Section */
+
+.contact-us {
+    text-align: center;
+}
+
+.contact-us-praent {
+    background-color: #FFF2F1;
+    margin: 71px auto;
+    padding: 145px 0;
+    border-radius: 15px;
+}
+
+.contact-us-praent h2 {
+    color: #1F1F1F;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contact-us-praent p {
+    color: #707070;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input-btn-section input {
+    border: none;
+    padding: 15px 235px 15px 22px;
+    margin-top: 16px;
+    height: 20px;
+}
+
+.input-btn-sectio {
+    display: flex;
+    justify-content: center;
+}
+
+.input-btn-section .btn-style {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 100px;
+    height: 50px;
+}
